@@ -1,5 +1,6 @@
 import java.util.*;
-class Solution {
+
+public class LongestValidParentheses {
     public int longestValidParentheses(String s) {
         Stack<Integer> stack = new Stack<>();
         stack.push(-1);

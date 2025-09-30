@@ -1,4 +1,6 @@
-class Solution {
+import java.util.*;
+
+public class ZigZagConversion {
     String convert(String s, int numRows) {
         if (numRows == 1 || numRows >= s.length()) {
             return s;

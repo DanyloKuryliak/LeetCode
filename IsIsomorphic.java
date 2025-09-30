@@ -1,5 +1,6 @@
 import java.util.*;
-class Solution {
+
+public class IsIsomorphic {
     public boolean isIsomorphic(String s, String t) {
         Map<Character, Integer> hss = new HashMap<>();
         Map<Character, Integer> hst = new HashMap<>();

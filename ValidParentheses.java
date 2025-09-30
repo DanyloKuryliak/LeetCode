@@ -1,5 +1,6 @@
 import java.util.*;
-class Solution {
+
+public class ValidParentheses {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
         Map<Character, Character> mapping = new HashMap<>();

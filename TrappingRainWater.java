@@ -1,5 +1,6 @@
 import java.util.*;
-class Solution {
+
+public class TrappingRainWater {
     public int trap(int[] height) {
         int left = 0, right = height.length - 1;
         int leftMax = height[left], rightMax = height[right];

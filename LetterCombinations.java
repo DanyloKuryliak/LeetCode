@@ -1,5 +1,6 @@
 import java.util.*;
-class Solution {
+
+public class LetterCombinations {
     public List<String> letterCombinations(String digits) {
         List<String> res = new ArrayList<>();
 

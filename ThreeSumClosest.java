@@ -1,5 +1,6 @@
 import java.util.*;
-class Solution {
+
+public class ThreeSumClosest {
     public int ThreeSumClosest(int[] nums, int target) {
         int n = nums.length;
         int closestSum = nums[0] + nums[1] + nums[2];

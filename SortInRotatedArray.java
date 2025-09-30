@@ -1,4 +1,4 @@
-class Solution {
+public class SortInRotatedArray {
     public int search(int[] nums, int target) {
         if (nums == null || nums.length < 1) {
             return -1;
