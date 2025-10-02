@@ -1,6 +1,6 @@
 package nodeproblems;
 
-import javax.swing.tree.TreeNode;
+// TreeNode class is in the same package
 
 public class ValidateBST {
     public boolean isValidBST(TreeNode root) {

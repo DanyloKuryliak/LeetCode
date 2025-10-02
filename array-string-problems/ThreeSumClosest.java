@@ -2,7 +2,7 @@ package NotNodeProblems;
 import java.util.*;
 
 public class ThreeSumClosest {
-    public int ThreeSumClosest(int[] nums, int target) {
+    public int threeSumClosest(int[] nums, int target) {
         int n = nums.length;
         int closestSum = nums[0] + nums[1] + nums[2];
         int minDiff = Math.abs(closestSum - target);
