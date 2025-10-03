@@ -1,4 +1,4 @@
-package nodeproblems;
+package utils;
 
 public class ListNode {
     int val;

@@ -1,4 +1,4 @@
-package nodeproblems;
+package utils;
 
 public class TreeNode {
     int val;
