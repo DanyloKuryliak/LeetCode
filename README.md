@@ -37,4 +37,4 @@ java -cp . package.name.ProblemName
 ```
 
 ---
-*Last updated: $(date)*
+*Last updated: 03.10*
