@@ -1,0 +1,31 @@
+package com.leetcode.linkedlist.twopointers;
+import com.leetcode.utils.TreeNode;
+import com.leetcode.utils.ListNode;
+
+import java.util.*;
+
+public class RemoveDuplicatesFromSortedList {
+    public ListNode deleteDuplicates(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        Set<Integer> seen = new HashSet<>();
+        ListNode dummy = new ListNode(-1);
+        dummy.next = head;
+        ListNode prev = dummy;
+        ListNode curr = head;
+
+        while(curr != null && curr.next != null) {
+            if (curr.val == curr.next.val) {
+                while (curr.next != null && curr.val == curr.next.val) {
+                    curr = curr.next;
+                }
+                prev.next = curr.next;
+            } else {
+                prev = prev.next;
+            }
+            curr = curr.next;
+    }
+    return dummy.next;
+}
+}
