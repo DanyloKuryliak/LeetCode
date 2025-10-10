@@ -1,7 +1,7 @@
 package com.leetcode.array.heap;
 import java.util.*;
 
-class Solution {
+class ConstructMultipleArray {
     public boolean isPossible(int[] target) {
         if (target.length == 1) return target[0] == 1;
         

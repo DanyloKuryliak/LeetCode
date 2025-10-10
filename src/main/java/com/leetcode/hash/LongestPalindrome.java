@@ -1,3 +1,4 @@
+package  com.leetcode.hash;
 import java.util.*;
 public class  LongestPalindrome {
     public int longestPalindrome(String s) {

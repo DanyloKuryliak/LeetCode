@@ -1,9 +1,9 @@
-
+package com.leetcode.hash;
 import java.util.*;
 
 public class LRUCache {
 
-    private int final capacity;
+    private final int capacity;
     private final LinkedHashMap<Integer, Integer> map;
 
     public LRUCache(int capacity) {
@@ -12,7 +12,7 @@ public class LRUCache {
     }
 
     public int get(int key) {
-        return map.getOrDefault(key, -1)
+        return map.getOrDefault(key, -1);
     }
 
     public void put(int key, int value) {
