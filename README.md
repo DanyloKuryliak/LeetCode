@@ -87,4 +87,4 @@ All classes are organized under the `com.leetcode` package with sub-packages:
 4. Use `mvn exec:java` to run specific solutions
 
 ---
-*Last updated: $(date +%Y-%m-%d)*
+Last updated: 12.10.2025
